@@ -21,6 +21,7 @@ This sample application demonstrate the first aproach, **Database per Tenant**. 
 
 -  clone the code.
 -  create schema and table with same name in multiple databases.
+        
         CREATE TABLE public.userdetails (phonehash text NOT NULL,passwordhash text NOT NULL,lastlogin timestamp NOT NULL,createdon timestamp NOT NULL,CONSTRAINT userdetails_pkey PRIMARY KEY (phonehash));
 -  Configure your database details in properties file.
 -  If you configured more than this two databases in properties file, You may have to configure the same in **TenantRoutingDataSource.java** and
