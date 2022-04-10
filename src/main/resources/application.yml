@@ -1,0 +1,19 @@
+tenent:
+  configurations:
+    default:
+      url: jdbc:postgresql://default-db-host-url.com/db-name
+      username: default-db-username
+      driver: org.hibernate.dialect.PostgreSQLDialect
+      password: default-db-password
+    tenant_1:
+      url: jdbc:postgresql://tenant-1-db-host-url.com/db-name
+      username: tenant-1-db-username
+      driver: org.hibernate.dialect.PostgreSQLDialect
+      password: tenant-1-db-password
+spring:
+  application:
+    name: alien-chat
+  jpa:
+    hibernate:
+      naming:
+        physical-strategy: org.hibernate.boot.model.naming.PhysicalNamingStrategyStandardImpl
