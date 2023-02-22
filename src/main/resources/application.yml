@@ -1,15 +1,15 @@
 tenent:
   configurations:
     default:
-      url: jdbc:postgresql://default-db-host-url.com/db-name
-      username: default-db-username
+      url: jdbc:postgresql://ec2-54-226-56-198.compute-1.amazonaws.com/d2045j8tq319nk
+      username: hzbjthylappslb
       driver: org.hibernate.dialect.PostgreSQLDialect
-      password: default-db-password
+      password: 95550287b95c8a1ee0dfd5ee3aae41f02ddaf8d1590f697769b983552533f0eb
     tenant_1:
-      url: jdbc:postgresql://tenant-1-db-host-url.com/db-name
-      username: tenant-1-db-username
+      url: jdbc:postgresql://ec2-52-203-164-61.compute-1.amazonaws.com/db0il7l7646cl8
+      username: gvmiwjcaxbddah
       driver: org.hibernate.dialect.PostgreSQLDialect
-      password: tenant-1-db-password
+      password: 77a126a23bbd5b3b9555b438c4268b5bf7002a0f169d0ef9678479e7b563e687
 spring:
   application:
     name: alien-chat
