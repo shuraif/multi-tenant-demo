@@ -1,8 +1,6 @@
 # multi-tenant-demo
 Springboot multi tenant application demo.
 
-![](https://img.shields.io/github/stars/pandao/editor.md.svg) ![](https://img.shields.io/github/forks/pandao/editor.md.svg) ![](https://img.shields.io/github/tag/pandao/editor.md.svg) ![](https://img.shields.io/github/release/pandao/editor.md.svg) ![](https://img.shields.io/bower/v/editor.md.svg)
-
 **What is Multi-tenancy?**
 
 Multi-tenancy is an architecture where one software application works for multiple customers. Each customer is called a tenant. This can be achieved in 3 different methods.
